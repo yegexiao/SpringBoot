@@ -41,6 +41,8 @@ public class FileController {
 		String suffixName = fileName.substring(fileName.lastIndexOf("."));
 		System.out.println("上传的后缀名为：" + suffixName);
 
+		
+		
 		// 文件上传后的路径
 		fileName = UUID.randomUUID() + suffixName;
 		System.out.println("转换后的名称:" + fileName);
