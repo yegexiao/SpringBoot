@@ -44,7 +44,6 @@ public class FileController {
 		// 文件上传后的路径
 		fileName = UUID.randomUUID() + suffixName;
 		System.out.println("转换后的名称:" + fileName);
-
 		File dest = new File(filePath + fileName);
 
 		try {
