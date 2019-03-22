@@ -57,7 +57,7 @@ public class FileController {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		// 上传失败 我测试
+		// 上传失败 删除
 		return new JsonData(SpringbootConstants.FAIL, "fail to save ", null);
 	}
 }
